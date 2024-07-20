@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "avl_tree.h": "c",
+        "rbtree.h": "c"
+    }
+}
