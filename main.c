@@ -30,7 +30,12 @@ int main() {
         int randomValue = rand() % (n + 1);
         avl_insert(avl_tree, randomValue);
     }
+    int y = 3;
 
+    int x = 5;
+    int p = 6;
+    int r = 43;
+    int c = 45;
     for (int i = 0; i < 50; i++) {
         clock_t start = clock();
         avl_search(avl_tree, rand() % (n + 1));
